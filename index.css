@@ -1,0 +1,68 @@
+#shc {
+  /* Make the SHC input wide. */
+  width: 100%;
+}
+
+.debug {
+  /* Allow breaking of long token arbitrarily. */
+  word-break: break-all;
+}
+
+#output {
+  /* Allow expansion to viewport. */
+  display: block;
+  width: 100%;
+}
+
+/**
+ * Footer
+ */
+footer {
+  text-align: center;
+}
+
+.footer-link {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.icon>svg, .icon>img {
+  display: inline-block;
+  height: 16px;
+  vertical-align: middle;
+  width: 16px;
+}
+
+/**
+ * Github Corner Banner
+ * Source: http://tholman.com/github-corners/
+ */
+
+.github-corner:hover .octo-arm{
+  animation:octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave{
+  0%,100% {
+    transform:rotate(0);
+  }
+  20%,60% {
+    transform:rotate(-25deg);
+  }
+  40%,80% {
+    transform:rotate(10deg);
+  }
+}
+
+@media (max-width:500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm{
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}

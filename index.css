@@ -8,12 +8,6 @@
   word-break: break-all;
 }
 
-#output {
-  /* Allow expansion to viewport. */
-  display: block;
-  width: 100%;
-}
-
 /**
  * Footer
  */

@@ -16,13 +16,8 @@ The following links provided reference implementations for various pieces of thi
 
 ## Dependencies
 
-The following dependencies have been copied into this repository.
-
-JavaScript:
+The following dependencies have been copied into this repository:
 
 * [pako](https://github.com/nodeca/pako): for zlib inflation
 * [MDN - Base64](https://developer.mozilla.org/en-US/docs/Glossary/Base64): for UTF-8 conversion
-
-CSS:
-
-* [Water.css](https://github.com/kognise/water.css)
+* [Water.css](https://github.com/kognise/water.css): for styling
